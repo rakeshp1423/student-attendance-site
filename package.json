@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "experiment",
+  "version": "1.0.0",
+  "description": "this is a student attendance system page . using to get a verification code to the user",
+  "main": "script.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git"
+
+  },
+  "keywords": [
+    "student",
+    "site"
+  ],
+  "author": "Rakesh Kumar Patra",
+  "license": "ISC"
+}

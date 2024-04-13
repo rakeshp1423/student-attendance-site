@@ -1,0 +1,40 @@
+/* Add this to styles.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.verification-box {
+    background-color: #1f1f1f; /* Darker background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    color: #eeeeee; /* Light gray text */
+}
+
+.verification-box img {
+    width: 100px; /* Adjust the size of the GIF as needed */
+    margin-bottom: 20px; /* Add some spacing between GIFs */
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #00adb5; /* Light blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #393e46; /* Dark gray button on hover */
+}
